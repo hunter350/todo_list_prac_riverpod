@@ -69,7 +69,7 @@ class TodoListTile extends ConsumerWidget {
               //: (value) => todo.isCompleted1(value!),
               : (value) => onToggleCompleted!(value!),
         ),
-        trailing: onTap == null ? null : const Icon(Icons.chevron_right),
+       // trailing: onTap == null ? null : const Icon(Icons.chevron_right),
       ),
     );
   }
