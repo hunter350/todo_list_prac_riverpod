@@ -32,6 +32,7 @@ class AppManager with ChangeNotifier {
 
   void isCompleted1(Todo todo, bool isCompleted) {
     todo.isCompleted = isCompleted;
+    saveTodo(todo);
     notifyListeners();
   }
 
