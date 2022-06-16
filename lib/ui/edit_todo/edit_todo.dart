@@ -135,7 +135,7 @@ class _DescriptionField extends ConsumerWidget {
       inputFormatters: [
         LengthLimitingTextInputFormatter(300),
       ],
-      onChanged: (value) =>  todo.description = value,
+      onChanged: (value) => todo.description = value,
     );
   }
 }
